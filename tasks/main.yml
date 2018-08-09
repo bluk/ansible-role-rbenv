@@ -1,0 +1,12 @@
+---
+# tasks file for ansible-role-rbenv
+- name: Install rbenv
+  git:
+    repo: "{{ rbenv_git_url }}"
+    dest: "{{ rbenv_install_path }}"
+    update: "{{ rbenv_git_update }}"
+- name: Install ruby-build plugin
+  git:
+    repo: "{{ ruby_build_git_url }}"
+    dest: "{{ rbenv_install_path}}/plugins/ruby-build"
+    update: "{{ ruby_build_git_update }}"

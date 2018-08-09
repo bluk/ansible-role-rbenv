@@ -1,0 +1,9 @@
+---
+# defaults file for ansible-role-rbenv
+rbenv_install_path: ~/.rbenv
+
+rbenv_git_url: https://github.com/rbenv/rbenv
+rbenv_git_update: true
+
+ruby_build_git_url: https://github.com/rbenv/ruby-build.git
+ruby_build_git_update: true

@@ -1,0 +1,17 @@
+galaxy_info:
+  author: Bryant Luk
+  role_name: rbenv
+  description: Installs rbenv
+  license: Apache
+  min_ansible_version: 2.6
+  platforms:
+    - name: MacOSX
+      versions:
+        - all
+  galaxy_tags:
+    - rbenv
+    - ruby
+    - development
+    - system
+    - packaging
+dependencies: []
